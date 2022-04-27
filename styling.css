@@ -6,7 +6,19 @@ body {
 }
 
 a {
-  color: lightblue;
+  color: #CFF6FF;
+}
+
+a:hover {
+  color: #AEE8F5;
+}
+
+a:active {
+  color: #A8FFF8;
+}
+
+a:visited {
+  color: #AEE8F5;
 }
 
 /* header related CSS */
@@ -97,6 +109,28 @@ header {
 
 .main_content h3 {
   line-height: 230px;
+}
+
+.agenda_flex {
+  display: flex;
+  width: 650px;
+  padding: 0;
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+.agenda_flex ul {
+  list-style-type: none;
+}
+
+.agenda_column {
+  width: 33%;
+  margin: 0 20px;
+}
+
+.agenda_column_header {
+  border: lightblue 1px solid;
+  border-radius: 15px;
 }
 
 /* footer related CSS */
