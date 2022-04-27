@@ -21,6 +21,16 @@ a:visited {
   color: #AEE8F5;
 }
 
+hr {
+  background-color: #110022;
+  color: #110022;
+  border-top: lightblue 1px solid;
+  border-bottom:  lightblue 1px solid;
+  border-left: none;
+  border-right: none;
+  height: 25px;
+}
+
 /* header related CSS */
 header {
   padding-bottom: 10px;
@@ -39,8 +49,9 @@ header {
   margin: auto 15px;
 }
 
-.tl_img_and_spacing img {
-  width: 60%;
+.header_img_and_spacing img {
+  width: 100px;
+  height: auto;
 }
 
 .header_text {
