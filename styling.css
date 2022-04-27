@@ -76,12 +76,12 @@ header {
 
 .main_flex_top {
   display: flex;
-  height: 50%;
+  height: 25%;
 }
 
 .main_flex_bottom {
   display: flex;
-  height: 50%;
+  height: 25%;
 }
 
 .main_content {
