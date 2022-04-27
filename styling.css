@@ -103,7 +103,7 @@ footer {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  height: 80px;
+  height: 0px;
   border-top: lightblue 1px solid;
   border-radius: 10px;
   text-align: center;
@@ -130,6 +130,6 @@ footer {
 }
 
 .footer_socials img {
-  width: 10%;
+  width: 20%;
   height: auto;
 }
