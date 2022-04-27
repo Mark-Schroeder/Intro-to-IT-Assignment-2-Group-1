@@ -77,11 +77,13 @@ header {
 .main_flex_top {
   display: flex;
   height: 25%;
+  width: 30%;
 }
 
 .main_flex_bottom {
   display: flex;
-  height: 25%;
+  height: 30%;
+  width: 30%;
 }
 
 .main_content {
@@ -103,7 +105,7 @@ footer {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  height: 0px;
+  height: 40px;
   border-top: lightblue 1px solid;
   border-radius: 10px;
   text-align: center;
