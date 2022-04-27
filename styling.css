@@ -128,11 +128,88 @@ header {
   margin: 0 20px;
 }
 
-.agenda_column_header {
+.sub_header {
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.industry_data{
+  margin: 50px 25px;
+}
+
+.industry_flex {
+  display: flex;
+  margin: auto;
+  width: 1200px;
+  height: 1000px;
+}
+
+.industry_box {
+  width: 50%;
+  height: 100%;
+  margin: 25px;
+}
+
+.industry_item {
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  height: 40%;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.industry_item h3 {
+  text-align: center;
+  margin: 20px;
+}
+
+.industry_job_main {
+  border-top: lightblue 1px solid;
+  border-bottom: lightblue 1px solid;
+  border-radius: 15px;
+  width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.industry_job_main h4{
+  margin-left: 50px;
+}
+
+.industry_job_flex{
+  display: flex;
+  margin: auto;
+}
+
+.industry_job_img{
+  width: 45%;
+  margin: auto;
+}
+
+.industry_job_img img{
+  width: 95%;
+}
+
+.technologies {
+  margin: 50px 250px;
   border: lightblue 1px solid;
   border-radius: 15px;
 }
 
+.technologies_content {
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.intro_list {
+  margin-left: 10px;
+  padding: 5px;
+  list-style-type: none;
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  width: 400px;
+}
 /* footer related CSS */
 footer {
   background-color: #110022;
