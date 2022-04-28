@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Group 1 : _____</title>
+    <link rel="stylesheet" href="styling.css">
+    <!-- script taken from w3schools.com at https://www.w3schools.com/howto/howto_js_collapsible.asp on 27/4/2022 -->
+    <script>
+      var coll = document.getElementsByClassName("transcript_collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = document.getElementsByClassName("transcript_content");
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+
+      <!-- includes title and logo on the top left -->
+      <div class="header_flex_top">
+
+        <div class="header_img_and_spacing">
+          <img class="top_left_img" src="kaleid_images/new_logo.png" alt="insert logo img here">
+        </div>
+
+        <div class="header_text">
+          <h1 class="title">Company Name</h1>
+          <h1 class="title">Slogan</h1>
+        </div>
+
+        <div class="header_img_and_spacing">
+
+        </div> <!-- / .tl_img_and_spacing -->
+
+      </div> <!-- / .header_flex_top -->
+
+      <!-- navigation bar under the title -->
+      <div id="navigation_bar">
+        <p>
+          <a href="index.html">Home</a> ·
+          <a href="team.html">Team</a> ·
+          <a href="data.html">Data</a> ·
+          <a href="work.html">Work</a> ·
+          <a href="tech.html">Tech</a> ·
+          <a href="project.html">Project</a> ·
+          <a href="agenda.html">Agenda</a>
+        </p>
+      </div> <!-- / .navigation_bar -->
+
+    </header>
+    <main>
+
+      <div class="profile_main">
+        <div class="sub_header" style="width: 40%;margin: 20px auto;">
+          <h3><u>IT Work</u></h3>
+        </div>
+        <div class="organizational_chart" style="text-align: center;padding-top: 15px;">
+          <p>not sure what tag to add but video goes here --> class includes required css like overflow: hidden;</p>
+        </div>
+        <button type="button" name="button" class="transcript_collapsible">Transcript</button>
+        <div class="transcript_content">
+          <p>transcript content</p>
+        </div>
+        <h4><b>Who is the interviewee?</b></h4>
+        <p>text</p>
+        <p>text</p>
+        <p>text</p>
+        <h4><b>Change in the IT Industry</b></h4>
+        <p>text</p>
+        <p>text</p>
+        <h4><b>Positives and Negatives of the IT profession</b></h4>
+        <p>text</p>
+        <h4><b>Conclusion</b></h4>
+        <p>text</p>
+      </div> <!-- / .profile_main -->
+
+    </main>
+  </body>
+</html>
