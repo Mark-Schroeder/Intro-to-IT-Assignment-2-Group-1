@@ -279,7 +279,7 @@ header {
   padding-left: 30px;
 }
 
-#organizational_chart {
+.organizational_chart {
   border: lightblue 1px solid;
   border-radius: 15px;
   margin: auto;
