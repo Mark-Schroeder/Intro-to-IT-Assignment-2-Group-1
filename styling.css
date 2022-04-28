@@ -297,6 +297,13 @@ header {
   overflow: hidden;
 }
 
+.mini_header {
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  width: 40%;
+  padding-left: 15px;
+}
+
 /* footer related CSS */
 footer {
   background-color: #110022;
