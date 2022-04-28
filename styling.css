@@ -272,6 +272,31 @@ header {
   align-content: center;
 }
 
+.table_job {
+  margin-left: 30px;
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  padding-left: 30px;
+}
+
+#organizational_chart {
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  margin: auto;
+  width: 70%;
+  overflow: hidden;
+  height: 250px;
+}
+
+.sim_diff_img {
+  border: lightblue 1px solid;
+  border-radius: 15px;
+  margin: auto;
+  width: 40%;
+  height: 150px;
+  overflow: hidden;
+}
+
 /* footer related CSS */
 footer {
   background-color: #110022;
