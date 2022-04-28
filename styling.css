@@ -266,7 +266,7 @@ header {
 .profile_bottom_content {
   border: lightblue 1px solid;
   border-radius: 15px;
-  width: 50%;
+  width: 100%;
   margin: 5px;
   overflow: hidden;
   align-content: center;
