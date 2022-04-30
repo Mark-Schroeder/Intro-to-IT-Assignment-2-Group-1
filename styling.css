@@ -273,6 +273,13 @@ header {
   align-content: center;
 }
 
+.profile_bottom_content img {
+  width: 100%;
+  length: 100%;
+  height: 100%;
+  margin: auto;
+}
+
 .table_job {
   margin-left: 30px;
   border: lightblue 1px solid;
@@ -304,6 +311,15 @@ header {
   width: 40%;
   padding-left: 15px;
   margin-top: 50px;
+}
+
+.img_idealjobs {
+  margin-top: 30px;
+}
+
+.img_idealjobs img {
+  width: 50%;
+  length: auto;
 }
 
 /* footer related CSS */
