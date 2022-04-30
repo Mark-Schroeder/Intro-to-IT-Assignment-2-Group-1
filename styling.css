@@ -150,7 +150,8 @@ header {
 }
 
 .industry_data {
-  margin: 50px 25px;
+  margin: 50px auto;
+  padding: 20px;;
 }
 
 .industry_flex {
